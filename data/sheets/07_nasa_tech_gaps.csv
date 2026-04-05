@@ -1,0 +1,199 @@
+Gap_ID,Title,Priority_Rank,Segments,Current_State,Target_State
+ESDMD #0101,"Positioning, Navigation, and Timing for Lunar Surface Extreme Environments",20,"Foundational Exploration
+Sustained Lunar Evolution","Current Mars rovers possess state-of-the-art PNT capabilities for mobile assets on another planetary surface, primarily utilizing onboard sensors for relative navigation with minimal onboarding processing. However, lunar rovers will have an increased pace of exploration and operational range, which as a result will require technology advancement for absolute navigation, real-time accuracy, and increased onboard processing of sensor data, especially for crew manual control. Additionally, Mars rovers differ from lunar rovers due to variations in the environmental conditions, lighting, and signal latency. The VIPER project developed high fidelity navigation tools for future use on an exploration rover at the lunar South Pole region.","Moon: Achieve absolute real-time localization of crew, mobile, and in-place assets to within 10m, 3 sigma enabled by a navigation infrastructure (such as an orbital constellation) defined by a geometric dilution of precision (GDOP) of less than six with at least four broadcast PNT signals. Given the line-of-sight and current infrastructure coverage requirements, systems on the lunar surface can determine their location within a short period of time. Once initialized, the systems can maintain this level of accuracy given a combination of navigation infrastructure signals, local sensors and onboard processing. Initial navigation infrastructure capability for the FE segment is planned for 40% of 24 hours for the lunar South Pole region with slightly degraded performance during the remainder of the day. The navigation infrastructure for the SLE segment can include expanded coverage and availability both in terms of surface area and percent time available. In addition to absolute localization, mobile assets may need to leverage relative measurements to meet a minimum close approach to distance. 
+Degraded performance: When C&PNT infrastructure is not available or inadequate, Artemis navigation systems can determine absolute location (within 3 sigma of targeted accuracy) for crew within 150m and vehicles within 100m, both 3-sigma. 
+Future performance: Surface capabilities utilizing multiple fixed and mobile assets will require greater local and relative navigation accuracy, especially during coordinated operations in close proximity."
+ESDMD #0102,"High-bandwidth, High-reliability Deep Space Communications",51,Humans to Mars,Ground-based methods through the Deep Space Network or Mars orbiters.,"Mars: Enable reliable uplink and downlink solutions that prevent or mitigate data disruptions (e.g., terrain blockages, momentary loss of surface or relay coverage). Additionally, human landers will need high definition (HD) or better quality streaming and still imagery."
+ESDMD #0103,"High-bandwidth, High-reliability Surface-to-Surface Communications",5,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars",Ultra high frequency (UHF) systems from Shuttle that can support audio for a maximum of 5 users over a distance of 1.0 km. WiFi has been demonstrated on the ISS supporting high data rates but is limited to non-critical applications. Neither technology has yet to be enabled on the lunar surface and there are some concerns towards multipath being difficult for UHF space-to-space communication systems that may reduce the useable distance.,"Moon: Advanced 3rd Generation Partnership Project (3GPP) cellular (e.g. 4G, 5G), Wi-Fi, and RF technology that supports video as well as mission critical voice, data, and other applications. Scalable, secure, and interoperable Communications technologies (e.g., rad-hard systems base stations, and user equipment) that provide a surface network throughput of 25 to 50 Mbps within 10 km, which is needed to simultaneously support multiple lunar users with voice, video, navigation, and data transfer services. 
+
+Mars: Scalable, secure, and interoperable communications technologies to support multiple Martian users with voice, video, navigation, and data transfer services. Surface network throughput and range may differ from lunar performance due to differences in Martian regolith and atmospheric characteristics."
+ESDMD #0104,"Earth-Independent Surface Positioning, Navigation, and Timing for Deep Space Missions",48,Humans to Mars,"There have been several robotic missions to Mars (e.g., Curiosity and Perseverance rovers). The current robotic EDL and surface navigation capabilities represent a starting point from which equivalent human-rated systems will evolve. For timing systems, the current state of the art is the Deep Space Atomic Clock (DSAC-1), which conducted its first mission in 2019.","Mars: Enable high availability position, navigation, and timing (PNT) services to support spacecraft operations with disruptions and blackout considerations."
+ESDMD #0201,Extreme Environment Avionics,2,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars",Existing spacecraft subsystems operate between -180 and 130 deg C. TBR radiation tolerance with degraded functionality. A limited number of vacuum-tolerant systems exist.,"Moon/Mars: Enable avionics' tolerance of and survival in extreme environments (temperature, radiation, dust, vacuum, etc.).
+ 
+Moon: In addition, increased dust tolerance compared to the Martian performance target.
+ 
+Mars: In addition, increased reliability and decreased maintenance needs compared to the lunar performance target."
+ESDMD #0202,High-Performance Onboard Computing,26,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars","Redundant commercial off-the-shelf processors are used but incur the cost of increased size, weight, power, and complexity.","Moon/Mars: Enable high-performance onboard computing operations to support autonomy, navigation, and other use cases in relevant environments.
+
+Mars: In addition, increased autonomy and reliability compared to the lunar performance target."
+ESDMD #0301,Systems to Survive and Operate through Extended Periods of Lunar Shadow,3,"Foundational Exploration
+Sustained Lunar Evolution",Small spacecraft have survived extended periods of lunar shadow with damage to subsystems and degraded capability. There is currently no state of the art for any human-scale elements successfully functioning through extended lunar shadow periods.,Moon: Survive continuous shadow for 350 hours or more several times a year for 10 years.
+ESDMD #0302,Fire Safety Upgrades for Surviving Exploration Mission Environments,22,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars","ISS and Orion subsystems, materials, and operating paradigms. Very limited small-scale analog experiments to date have demonstrated flammability and fire propagation phenomena in low gravity, reduced pressure, and elevated O2 percentage, which may be worst-case environment. Current state of the art hardware for surviving an event includes the Emergency Breathing Apparatus and Smoke-Eater, both in service on ISS.","Moon/Mars: Materials capable of meeting flammability test standards in low- and partial-gravity environments at reduced pressures (8.2 psia) and higher oxygen levels. Fire detection, suppression, monitoring, and clean-up technologies that perform based on the worst-case fire scenario. Enable sufficiently greater capacity by volume of smoke/soot/water droplets.
+
+Mars: In addition, increased reliability compared to the lunar performance target."
+ESDMD #0303,"Dormancy Recovery for Habitat Water Storage, Distribution, and Reclamation",16,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars","ISS water system has never been dormant, which would require replacement of most major components. Existing biocides support water recovery processing, not dormancy recovery.","Moon/Mars: Safe and effective long-term (TBR years) maintenance and recovery (during crewed and uncrewed operations) of water systems that meet the chemical and microbial potable water requirements. 
+
+Mars: In addition, increased reliability compared to the lunar performance target."
+ESDMD #0304,Habitat Environmental Monitors and Capabilities to Support Deep Space Missions,11,"Sustained Lunar Evolution
+Humans to Mars","The ISS TOCA for in-flight water quality monitoring. For surfaces, collecting samples with a swab and the microbial profiles are obtained directly through sequencing. For water and air, samples are collected and cultured onboard and returned to Earth for identification analysis. NASA has supported work for bio regenerative life support systems. ISS flight demonstration of the Airborne Particulate Monitor. ISS Major Constituent Analyzer. ISS handheld acoustic monitors.","Moon/Mars: Water quality, microbial, airborne particulate, trace contaminant, and acoustic monitoring capable of informing response to off-nominal events caused by natural and induced environmental characteristics. Prevent undesirable outcomes for crew health and habitable assets. Internal and external habitation monitoring should be operable without Earth return of samples and with minimal consumables and crew time.
+
+Mars: In addition, increased reliability compared to the lunar performance target."
+ESDMD #0305,Food and Nutrition Capabilities for Long-Duration Missions,9,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars","The ISS is regularly resupplied with a wide variety of shelf stable foods for the crew to choose from with a minimum of 18 months shelf life. Ambient temperature storage limits shelf life. No cold stowage capability is currently available. Ambient pressure maintains packing integrity against oxygen, humidity, and microbes. There have been food storage and nutrition studies conducted on the ISS. There have also been studies and small scale demonstrations on the ISS for crop plant production and propagation, such as the Vegetable Production System (VEGGIE) and the Advanced Plant Habitat (APH), but technology development is needed to scale up crop plant production and agriculture for long-duration missions.","Moon/Mars: Food system to provide nutritional shelf life, variety, safety, and acceptability for sustained Moon and Mars mission durations and life support closure levels. 
+
+Mars: In addition, increased shelf life compared to the lunar performance target."
+ESDMD #0306,Advanced Structures and Materials to Enable Mass-Efficient Habitats,49,"Sustained Lunar Evolution
+Humans to Mars","Multiple options for mass and volume savings such as inflatable softgoods, composites, and lightweight metallics.","Moon/Mars: Solutions that allow habitation structures to meet TBR performance thresholds while complying with TBR mass and volume constraints.
+
+Mars: In addition, increased efficiency compared to the lunar performance target."
+ESDMD #0307,Radiation Monitoring and Forecasting,17,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars","Current space weather forecasting consists of monitoring the state of the Sun and altering the mission activities to account for any radiation events once detected. Existing charged particle detectors accurately measure the charged particle environment inside spacecraft, but long life, radiation hard detectors with an increased sensitivity to electrons are needed for SPE warning systems external to the spacecraft.  Existing neutron monitors can measure the neutron spectrum up to ~15 MeV, but higher energy neutron measurements are limited by large uncertainties and measurement systems with excessive mass/volume/power. Current models do not accurately forecast the duration, intensity or how the event will change over time and struggle to predict the most intense and hazardous events.","Moon/Mars: Accurately characterize, forecast the onset of, and predict the duration, intensity, energy spectrum, and intensity-time profile of SPE events with low false alarm rates and hours of early warning for EVA planning. Monitor and forecast the GCR environment. Prediction should warn for electrons as well as protons.
+
+Mars: In addition, increased reliability compared to the lunar performance target."
+ESDMD #0308,Radiation Countermeasures,47,"Sustained Lunar Evolution
+Humans to Mars","Operational and physical mitigation strategies are used to reduce crew doses on the ISS. Current ionizing radiation mitigation strategies are based on the application of the As Low As Reasonably Achievable (ALARA) principle to protect the crew from severe long-term effects from radiation exposure (NASA-STD-3001-Vol 2) but there have been minimal medical radiation countermeasures that have been identified/validated to fully protect crew against long-term health effects from radiation exposure. Additionally, current radiation analysis tools closely align with predicted space measurements, but are less accurate for thick shielding which would be found in long duration mission vehicles and habitats. GCRs cannot be effectively mitigated against with the SOA.","Moon/Mars: Develop long-duration, mass-efficient passive and active shielding, time, and distance countermeasures to mitigate adverse crew health outcomes to ionizing and non-ionizing radiation including SPE and GCR conditions (reference NASA-STD-3001 V1 4030, 4031).
+
+Mars: In addition, increase in performance target for longer duration missions."
+ESDMD #0401,Crew Exercise Countermeasures to Support Extended Habitation in Space,40,"Sustained Lunar Evolution
+Humans to Mars","ISS exercise countermeasures address aerobic, muscle, and bone loss risk. Ongoing work on exploration solutions (TBR). Currently, ground support provides exercise data interpretation. Use of multiple on-orbit devices and the efficacy to support high-frequency lunar and Martian surface EVA unassisted is still being researched. As we move to exploration missions, the communication delay will introduce new issues, and will force crew to be more self-reliant.","Moon/Mars: Hardware and software that 1) are sufficient to meet crew health and performance standards for aerobic fitness, muscle strength, bone health for extraterrestrial surface injury risk minimization; 2) require planned maintenance of no more than (TBD); and 3) are applicable for in-transit and surface mission phases.
+
+Moon: In addition, support mission durations up to 365 days in space.
+
+Mars: In addition, hardware and software that are compatible with Mars mission, systems, and operations. Support mission durations on the order of 2-3 years."
+ESDMD #0402,Sensorimotor Countermeasures to Support Extended Habitation in Space,39,"Sustained Lunar Evolution
+Humans to Mars",There are no effective sensorimotor countermeasures. Exercise is an inadequate sensorimotor countermeasure. (Current ISS return is example of ineffectiveness).,"Moon/Mars: Hardware and software that are sufficient to meet crew health and performance standards for sensorimotor health to safe completion of assessment within (TBD) of preflight baseline.
+
+Moon: In addition, support mission durations up to 365 days in space.
+
+Mars: In addition, support mission durations on the order of 2-3 years."
+ESDMD #0403,Physiological Countermeasures for Extended Habitation in Space,41,"Sustained Lunar Evolution
+Humans to Mars","Countermeasures on ISS currently include neuro-ocular monitoring, Crew Health Stabilization Program, stringent environmental and food monitoring, and the use of disinfectants and biocides. There is no validated immune countermeasure protocol compatible with operations in deep space. Countermeasures already deployed to ISS seem to benefit immunity but are largely incompatible with deep space missions.","Moon/Mars: Long-duration exploration mission-compatible physiological countermeasures performing adequately to reduce adverse crew health outcomes with communication delay and without resupply.
+
+Moon: In addition, support mission durations up to 365 days in space.
+
+Mars: In addition, support mission durations on the order of 2-3 years."
+ESDMD #0404,Behavioral Countermeasures for Extended Habitation in Space,42,"Sustained Lunar Evolution
+Humans to Mars","Current countermeasures for behavioral health and performance rely on real-time support and resupply from the ground team via private family conferences, care packages, etc. These will not be an adequate approach for exploration missions with communication delays and limited to no resupply.","Moon/Mars: Long-duration exploration mission-compatible behavioral countermeasures performing adequately to reduce adverse crew health outcomes with communication delays and without resupply.
+
+Moon: In addition, support mission durations up to 365 days in space.
+
+Mars: In addition, support mission durations on the order of 2-3 years."
+ESDMD #0405,Exploration Medical Capabilities for Deep Space Missions,46,"Sustained Lunar Evolution
+Humans to Mars","The scope of ISS medical capabilities is predicated on real-time communication and ground support, evacuation for definitive care of significant medical events, frequent and reliable resupply, and mission durations less than one year.","Moon: Same as Mars target, except with less communication delay and some additional abort capability.
+
+Mars: Dependent upon future integrated risk assessment trades. Medical systems and ConOps to reduce risk of adverse crew health outcomes with communication delay, limited abort capability, and limited diagnostic and treatment resources."
+ESDMD #0406,Spacesuit Physiology for Deep Space Missions,43,"Sustained Lunar Evolution
+Humans to Mars",Real-time Crew Health and Performance decision support during ISS EVA operations is provided by ground-based flight controllers with high bandwidth and near-zero latency space-ground communications. Suit-to-crew fit is well understood in microgravity but not lunar gravity for a walking or sitting suit configuration. Prebreathe protocol for lower pressure higher oxygen habitats is only partially validated.,"Moon/Mars: Dependent upon future integrated risk assessment trades, improved spacesuit physiology capabilities, such as tools to predict, monitor, and mitigate EVA crewmember injuries. Solutions capable of supporting Moon and Mars mission EVA strategy with acceptable risk of adverse outcomes."
+ESDMD #0501,"Robotic Inspection, Maintenance, and Repair",36,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars","IM&R tasks performed manually by crew on Shuttle and ISS. Four Mars science rovers (Spirit, Opportunity, Curiosity, and Perseverance) have performed autonomous robotic inspection utilizing cameras and perception software. Ingenuity helicopter performed autonomous aerial photography inspection of Perseverance rover, as well as terrain and landing spot inspection.","Moon/Mars: Improved system availability (reliability, maintainability, supportability) as well as safety.
+
+Mars: In addition, increased autonomy and reliability compared to the lunar performance target."
+ESDMD #0502,"In-situ Manufacturing of Spares, Repairs, and New Parts",57,"Sustained Lunar Evolution
+Humans to Mars","Capability to manufacture new products, spare parts, replacement units, or specialty tools in-situ does not exist beyond small demonstration components fabricated from polymers.",Moon/Mars: Enable space-based manufacturing techniques allowing repairs and replacement of hardware components in-situ.
+ESDMD #0503,In-Space & Surface Transfer of Earth-Storable Propellants,50,"Sustained Lunar Evolution
+Humans to Mars",Hypergolic propellant transfer has been demonstrated in space and is common for ground operations. Subsystems at scale are TRL 2-3.,Moon/Mars: Enable the thermal conditioning and reliable and safe transfer of storable propellant and high pressure gases between exploration assets in space and on the surface of the Moon and Mars.
+ESDMD #0504,Autonomous Lunar Surface Structure Assembly and Construction,30,"Foundational Exploration
+Sustained Lunar Evolution","In-space assembly and construction is at subscale and low TRL. Examples include the Automated Reconfigurable Mission Adaptive Digital Assembly Systems (ARMADAS) modular structural assembly system and the Tall Lunar Tower (TLT) autonomous robotic tower assembly system, both at TRL 4.",Moon: Enable the assembly and construction of structures on the lunar surface using autonomous/semi-autonomous robotic technologies.
+ESDMD #0505,In-Situ Additive/Subtractive Construction on the Lunar Surface,29,"Foundational Exploration
+Sustained Lunar Evolution",Subscale technology testing in thermal vacuum chambers using regolith simulant.,Moon: Enable in-situ additive/subtractive construction technologies on the lunar surface.
+ESDMD #0601,Oxygen Extraction from Lunar Regolith,54,"Foundational Exploration
+Sustained Lunar Evolution","Days of operation with highland simulants and Thermal Vacuum Chamber (TVAC) conditions around TRL 5/6, including the Carbothermal Reduction Demonstration (CaRD) project.","Moon: Enable the acquisition, processing, storage and transfer of usable ISRU-generated products at the Moon in a scalable manner. Produce on the order of 250kg oxygen per year to meet Sustained Lunar Exploration habitation target state consumption rates, assuming 4 crew to the surface for 28 days."
+ESDMD #0603,Water Recovery from Lunar Regolith/Ice,55,"Foundational Exploration
+Sustained Lunar Evolution",Various methods and low TRL technologies tested with simulant at subscale.,"Moon: Enable the acquisition, processing, storage, and transfer of usable ISRU generated products at the Moon in a scalable manner. Produce on the order of 700kg water per year to meet Sustained Lunar Exploration habitation target state consumption rates, assuming 4 crew to the surface for 28 days."
+ESDMD #0604,Metal Extraction from Lunar Regolith,56,"Foundational Exploration
+Sustained Lunar Evolution",Proof of concept type lab operations (TRL 4); short durations and small quantities.,"Moon: Enable the acquisition, processing, storage and transfer of usable ISRU-generated products in the TBR kg class at the Moon in a scalable manner."
+ESDMD #0605,"Lunar Regolith Excavation, Manipulation, and Transportation",53,Sustained Lunar Evolution,"Regolith manipulation has been demonstrated in situ with scientific instruments and scoops at small <10 kg scale. Current ongoing efforts, including the development of the ISRU Pilot Excavator (IPEx) (TRL 5), are being designed with the goal of reliability and efficiency to excavate 10 metric tons of lunar regolith over 14 days.","Moon: Demand for regolith excavation, manipulation, and transportation will depend on the scale of ISRU operations and site preparation. The scale of regolith manipulation to also minimize lofted dust will depend on the scale of site preparation and surface infrastructure support."
+ESDMD #0606,Mars ISRU to Support Human Exploration,52,Humans to Mars,Various technologies at TRL 3/4. MOXIE CO2 to O2 demonstration on Mars at subscale with challenges that must be addressed for scaling operations.,"Mars: Enable the production of commodities, propellant, and other usable materials to support human Mars missions."
+ESDMD #0701,"Packing, Transport, and Use of Conditioned Supplies and Commodities",23,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars","Apollo equipment carriers. ISS extravehicular robotics experience (e.g., SPDM). ISS systems for pressurized cargo (e.g., CTB, ZSR, fluid bags).","Moon/Mars: Minimize logistics footprint, system mass, crew handling, and delivery time. Maximize reuse and interoperability.
+
+Mars: In addition, increased efficiency compared to the lunar performance target."
+ESDMD #0702,Waste Management,21,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars",Abandoning all waste on the surface or in designated orbit.,"Moon/Mars: Solutions that maximize reuse, reduce logistics needs from Earth, encourage in-situ recycling, minimize logistics footprint, and prevent microbial and volatile releases that contaminate the vehicle and planetary surface."
+ESDMD #0801,Lunar Dust-Tolerant Systems and Dust Mitigation,1,"Foundational Exploration
+Sustained Lunar Evolution","Dust-tolerant systems used during Apollo missions. Terrestrial-based applications, such as flange couplings used in the oil and gas industry. These applications would need to be tested in the applicable environment first before being ready for use on a mission.","Moon: Systems should be capable of operating efficiently for expected durations or longer, as well as preventing extreme wear and tear to the system or mechanisms from lunar dust. Prevention and/or removal of dust accumulation/adhesion is desired for external systems and for internal habitable spaces to allow for operational capability."
+ESDMD #0802,Mars Dust-Tolerant Systems and Dust Mitigation,35,Humans to Mars,Dust-tolerant systems and mechanisms on the Mars Perseverance rover.,"Mars: Systems should be capable of operating efficiently for expected durations or longer, as well as prevent extreme wear and tear to systems or mechanisms from Martian dust. Prevention and/or removal of dust accumulation/adhesion is desired for external systems and for internal habitable spaces to allow for operational capability."
+ESDMD #0803,Extravehicular Activity (EVA) and Intravehicular Activity (IVA) Suit System and Capabilities for Mars Missions,31,Humans to Mars,The xEMU heat rejection and CO2 removal systems are dependent on operating in a vacuum environment as opposed to the Martian atmosphere. The xEMU system mass is also incompatible with a Mars surface gravity environment due to the too-large workload for the astronaut.,"Mars: Mars spacesuits must be compatible with the surface gravity environment and the presence of an atmosphere. Mars spacesuits will require a different CO2 removal technology and thermal management technology than a lunar surface suit. Further, Mars spacesuits must be capable of supporting TBD concepts of operation with respect to EVA dwell time, EVA frequency, and use life."
+ESDMD #0804,Robotic and Mobility Systems in Extreme Cold Environments on the Lunar Surface,19,"Foundational Exploration
+Sustained Lunar Evolution","Non-integrated subsystems tested independently between 220 K and 130 K, with limited operational lifetimes.","Moon: Enable use cases for surveying and accessing PSRs for sample retrieval. Enable robotic operations in PSRs with minimum temperatures of ~20–30 K for a maximum duration of [TBR] hours. Enable robotic exploration of regions where landing or crew entry are not feasible or advisable (e.g., areas of darkness colder than TBD degrees Kelvin, slope greater than TBD degrees, or other difficult terrain)."
+ESDMD #0805,Autonomous Surface Mobility and Navigation,8,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars",Human-in-the-loop ground control solutions navigating at slow pace over communications delays and data latency. The VIPER project developed sensors for determining position and identifying hazards for future use on an exploration rover at the lunar South Pole region. Terrestrial autonomous navigation systems rely on high performance computing. Mars 2020 Rover Perseverance uses human-in-the-loop goal setting augmented by onboard autonomous navigation with hazard avoidance which enables typical traverse distances of ~250m/sol or ~700m per multi-sol command cycle.,"Moon/Mars: Capability for autonomous surface mobility and navigation to enable accurate location estimation and repositioning of surface assets while uncrewed.
+
+Moon: In addition, the uncrewed surface mobility range target for FE segment is 1050 km/year at the lunar South Pole region.
+
+Mars: In addition, increased autonomy and reliability compared to the lunar performance target."
+ESDMD #0806,"Payload Offloading, Handling, and Manipulation for Surface Assets",7,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars",Crew manual labor to manipulate logistics cargo and payloads that do not provide their own mobility systems. Small mechanical assist with pullies and crew carry. Surface level access and lightweight ladders.,"Moon/Mars: Uncrewed logistics transfer methodologies. 100s to 1000s of kgs robotic load handling/transfer capacities. Expand from crew portable to large element-scale volumes. Access from surface level to elevated heights up to 10s of meters.
+
+Mars: In addition, increased autonomy and reliability compared to the lunar performance target."
+ESDMD #0807,Docking and Berthing between Surface Elements on the Moon and Mars,15,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars",Heritage ISS docking systems. Surface docking/mating systems for dusty surface environments do not currently exist.,"Moon/Mars: Dust-tolerant mating system and utilities/logistics connections that can facilitate the transfer of commodities and/or crew and cargo between elements in a shirtsleeve environment while maintaining pressure integrity for up to a decade of surface operations.
+
+Mars: In addition, increased reliability compared to the lunar performance target."
+ESDMD #0808,Relocation of Large Assets on the Lunar Surface,25,"Foundational Exploration
+Sustained Lunar Evolution",Cargo and payload manipulation and transportation options that may not scale or be capable of transporting a high-mass asset over a long distance.,Moon: Capability to manipulate and transport >6-metric ton asset over TBR distance.
+ESDMD #0901,Scalable Lunar Surface Power Generation,13,"Foundational Exploration
+Sustained Lunar Evolution","ISS has ~200 kW of solar arrays with battery energy storage for ~30-minute LEO eclipse. NASA experience with long-duration Moon and Mars surface power is limited to <1 kW robotic missions (e.g., ALSEP, InSight, Curiosity). There has been one brief ground test of a kW-scale fission power system intended for space (""KRUSTY"" in 2018). ","Moon: Scalable multi-kWe-scale power generation (and energy storage, as applicable) capable of supporting crew safety and exploration activities in lunar temperatures, dust, and solar availability conditions to extend crewed operation during lunar shadowed periods."
+ESDMD #0902,Scalable Mars Surface Power Generation,45,Humans to Mars,"NASA experience with long-duration Moon and Mars surface power is limited to <1 kW robotic missions (e.g., ALSEP, InSight, Curiosity). There has been one brief ground test of a kW-scale fission power system intended for space (""KRUSTY"" in 2018).","Mars: Scalable multi-kWe-scale power generation (and energy storage, as applicable) capable of supporting crew safety and exploration activities in Mars temperatures, dust, and solar availability conditions."
+ESDMD #0903,Power Management and Distribution between Surface Elements,24,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars",ISS produces ~200 kW and distributes power at 120-160 Vdc across distances of 10s of meters. There are no current PMAD options capable of distributing multi-kW power at high voltage over km-scale distances in harsh surface environments.,"Moon/Mars: Robust power management and distribution solutions for long-duration operations in extreme environments. Consistent design guidelines for PMAD interfacing between surface power and surface assets, allowing for modularity and resiliency to off-nominal scenarios. Design to minimize system mass for PMAD transfer infrastructure (from power source to user).
+
+Moon: In addition, the target surface power available between elements for FE segment is 20 kW.
+
+Mars: In addition, increased reliability compared to the lunar performance target."
+ESDMD #1001,"High-performance Actuators, Sensors, and Interfaces",14,"Sustained Lunar Evolution
+Humans to Mars","Heritage robotic missions to Mars have tele-operated actuators, cameras, sensors for limited capture functions.","Moon/Mars: Need motor drivers to meet corresponding performance metrics. Provide environmentally robust components and/or operationally robust components with TBD reliability, TBD accuracy, and TBD mean-time-between-failure, dependent on application.
+
+Mars: In addition, increased autonomy, reliability, and communication delays compared to the lunar performance target."
+ESDMD #1002,Autonomous Monitoring for Exploration Missions,34,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars",ISS crew largely relies on ground support for remote monitoring with max ~8-second time delay. Autonomous monitoring requires large and heavy processors and extensively pre-programmed decision algorithms.,"Moon/Mars: Enable autonomous monitoring of systems and crew that support human exploration, progressing toward Mars-distance communication delays and blackouts.
+
+Mars: In addition, increased autonomy, reliability, and communication delays compared to the lunar performance target."
+ESDMD #1003,"Integrated System Fault/Anomaly Diagnosis, Decision Support, and Response",18,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars","ISS crew largely relies on ground support for off-nominal diagnosis and decision-making. Ad-hoc integrations are complex, costly, and difficult-to-maintain one-time implementations specific to a particular system.","Moon/Mars: Safe, reliable, autonomous control of systems; autonomous detection and diagnosis of off-nominal conditions and events; automated control and safing sequences. 
+
+Mars: In addition, increased autonomy, reliability, and communication delays compared to the lunar performance target."
+ESDMD #1004,Trustworthy Autonomy for Planning and Decision-making,33,"Sustained Lunar Evolution
+Humans to Mars",ISS crew largely relies on ground support for planning and nominal decision-making. There are insufficient ontologies and languages to facilitate implementation of autonomous capabilities.,"Moon/Mars: Software platforms to enable analysis and decision-making without humans in the loop and can explain their decision-making (or have it inspected) to build trust.
+
+Mars: In addition, increased autonomy, reliability, and communication delays compared to the lunar performance target."
+ESDMD #1005,Safe Human-Robot Interaction and Teaming,28,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars",Increasing commercial use of human-scale robots working alongside humans to move cargo in warehouses.,"Moon/Mars: Safe human-robot interactions at level of efficiency that supports human exploration; safe command and control across high-latency and bandwidth-limited networks; built-in or automated safing sequences.
+
+Mars: In addition, increased autonomy, reliability, and communication delays compared to the lunar performance target."
+ESDMD #1101,Lunar Precision Landing and Hazard Avoidance for Human Exploration,27,"Foundational Exploration
+Sustained Lunar Evolution",Systems capable of soft-touchdowns on illuminated landing sites at the lunar South Pole region.,Moon: Enable crew and cargo to be landed at lunar South Pole region exploration sites in various illumination conditions with 50m landing accuracy for FE segment with <10 minute initialization time to confirm position within 25m. 
+ESDMD #1102,Mars Precision Landing and Hazard Avoidance for Human Exploration,37,Humans to Mars,Perseverance had a landing ellipse of 7.7 km x 6.6 km. This EDL architecture does not scale to human-class vehicles. The Perseverance Terrain Relative Navigation system enabled landing accuracy to within 5 m of the final designated landing target.,Mars: Landing accuracy on order of 100 m. Detect and avoid obstacles on order of 1 m in diameter/depth.
+ESDMD #1103,"Mars Entry, Descent, and Landing for Human Exploration",10,Humans to Mars,Perseverance landed approximately 1 metric ton on Mars surface with EDL architecture that does not scale to human-class elements. LOFTID successfully demonstrated a 6 m inflatable aeroshell with peak deceleration of 9g returning 1100kg from Earth orbit.,"Mars: Enable the safe, reliable, and precise landing of payloads between 25 and 75+ metric tons."
+ESDMD #1104,Mars Transportation Propulsion,6,Humans to Mars,"Chemical combustion solutions are current state of the art, but aggregation of chemical propellant has not been demonstrated on orbit. NTP and NEP are at low TRL at human exploration scale. SEP for Gateway is at TRL 6. All of the above may need a larger-scale propulsion system for Mars than has been tested/built.",Mars: Enable the transfer of crew and cargo between Earth and Mars. Desired propulsion system performance will be informed by ongoing and future definition tasks.
+ESDMD #1105,Mars Ascent Propulsion for Human Exploration,12,Humans to Mars,Ascent from Mars surface has never been attempted. Current solutions are conventional storable propellant liquid rocket engines.,Mars: Enable crew and cargo to ascend to Mars orbit. Desired performance will be informed by ongoing and future definition tasks.
+ESDMD #1106,Cryogenic Fluid Storage,32,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars",Boil-off rate in current storage solutions necessitates additional propellant mass margin of 15%-20%. A zero boil-off tank experiment series has been conducted aboard ISS.,"Moon/Mars: System that can efficiently store propellant for long-durations in microgravity and partial gravity environments while minimizing boil-off.
+
+Mars: In addition, increased autonomy and reliability compared to the lunar performance target."
+ESDMD #1107,Cryogenic Fluid Transfer,4,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars",Boil-off rate in current storage solutions necessitates additional propellant mass margin of 15%-20%. In-space transfer of cryogenic fluids has not been demonstrated at scale. Fluid transfer and capillary flow experiments have been conducted aboard ISS.,"Moon/Mars: System that can enable low-loss cryogenic fluid transfer between spacecraft in microgravity and partial gravity environments.
+
+Mars: In addition, increased autonomy and reliability compared to the lunar performance target."
+ESDMD #1201,In-Situ Sample Storage and Processing,38,"Foundational Exploration
+Sustained Lunar Evolution
+Humans to Mars","Active cold storage systems on the ISS (e.g., MERLIN, MELFI, Glacier) and active and passive cold stowage.","Moon/Mars: Enable storage of geological and biological samples at TBR temperature range for TBR duration. Refrigerated and frozen storage will be needed before cryogenic storage.
+
+Moon: In addition, lower end of temperature range is expected to be lower at the Moon than at Mars.
+
+Mars: In addition, duration of storage is expected to be longer for Martian samples compared to lunar samples. "
+ESDMD #1202,Planetary Protection Technologies for Human Exploration,44,Humans to Mars,"Pre-launch cleaning methods that enable compliance with planetary protection guidelines and protocols for robotic spacecraft provided in NPR 8715.24, NASA-STD-8719.27 and NASA-HDBK-20240016475. Life support systems and airlocks vent unfiltered gas to environment, no ability to disinfect equipment or spacesuits exiting vehicle.",Mars: Ability to quantify and identify bioburden and chemicals released to environment and introduced from exterior into vehicle. Technologies to enable compliance with spacecraft protocols and guidelines.

@@ -1,0 +1,18 @@
+Layer,Provider,TRL_25pct,Cost_Trajectory_20pct,Roadmap_Alignment_20pct,Reliability_15pct,Interoperability_10pct,Scalability_10pct,Weighted_Score
+Heavy Lift,SpaceX,9,10,9,9,7,10,9.1
+Heavy Lift,Blue Origin,7,7,8,6,7,7,7.050000000000001
+Heavy Lift,Rocket Lab,8,5,6,8,6,5,6.5
+Heavy Lift,ULA,8,4,5,9,7,4,6.25
+Cislunar,SpaceX HLS,5,7,8,5,6,8,6.3999999999999995
+Cislunar,Blue Moon MK1,6,6,7,5,7,6,6.15
+Cislunar,Intuitive Machines,7,5,6,5,5,4,5.6000000000000005
+Habitat,Vast,6,7,8,5,6,7,6.55
+Habitat,Axiom,5,6,7,6,7,6,6.050000000000001
+Habitat,Orbital Reef,4,3,7,5,8,9,5.45
+Habitat,Starlab,4,5,6,4,6,7,5.1000000000000005
+ECLSS,Collins Aerospace,8,6,8,9,7,6,7.450000000000001
+ECLSS,Paragon SDC,7,5,6,7,6,5,6.1
+Comms,NASA DSN,9,5,7,9,8,4,7.2
+Comms,Starlink,9,8,5,8,6,8,7.45
+ISRU,NASA MOXIE,6,4,7,6,5,3,5.3999999999999995
+ISRU,Honeybee Robotics,6,5,6,6,5,4,5.5

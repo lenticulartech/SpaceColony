@@ -1,0 +1,8 @@
+Decision,Govt_Agencies,Private_Aerospace,Colonists,Scientific_Community,Resource_Companies,Regulatory_Bodies
+Destination selection,A,C,I,C,I,I
+Transport architecture,C,R,I,C,I,I
+Habitat design,A,R,C,C,I,I
+Resource extraction plan,A,C,I,C,R,C
+Safety / evacuation (RTO),A,R,C,C,I,C
+Governance / sovereignty,R,I,C,I,I,A
+Funding model,A,C,I,I,C,I

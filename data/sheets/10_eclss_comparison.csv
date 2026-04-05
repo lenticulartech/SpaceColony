@@ -1,0 +1,4 @@
+Configuration,Initial_Mass_kg,Water_Recovery_Pct,O2_Recovery_Pct,Best_For,Mass_Ratio,Source
+Open-loop ECLSS,225,0 (consumable),0 (consumable),Moon (30-day with resupply),1x baseline,NASA Regen ECLSS Analysis 2021
+Closed-loop ECLSS,2641,87-98,~50 (Sabatier),Mars (no resupply),11.7x baseline,NASA Regen ECLSS Analysis 2021
+ISS Current ECLSS,N/A (installed),87-98,~50 (Sabatier),LEO (with resupply),N/A,ISS Program

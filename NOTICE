@@ -1,0 +1,14 @@
+Off-Earth Colonization: A Solutions Architecture Analysis
+Copyright 2026 Lenticular Tech
+
+This project applies enterprise cloud architecture methodology (IBM, AWS, and
+Google Cloud Well-Architected Frameworks) and NASA mission requirements to
+evaluate off-earth colonization destinations.
+
+Original analysis, methodology application, scoring frameworks, and architecture
+recommendations by Lenticular Tech.
+
+NASA data included in this repository (data/nasa_reference/) is public domain
+work of the United States Government and is not subject to copyright protection.
+Source: NASA Moon to Mars Architecture Program.
+https://www.nasa.gov/moontomarsarchitecture/

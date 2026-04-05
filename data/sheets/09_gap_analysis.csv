@@ -1,0 +1,11 @@
+Architecture_Layer,Required_Capability,Current_Best_Provider,Provider_TRL,Gap_Severity,Estimated_Closure_Year,Blocking
+Heavy lift to LEO,Mature high cadence <$1000/kg,SpaceX Falcon 9/Starship,9,Low,2025,No
+Cislunar transport,Reliable cargo+crew to surface,SpaceX HLS / Blue Moon MK1,5,High,2028,Yes
+Lunar surface ops,Mining manufacturing construction,None,2,Critical,2032+,Yes
+Orbital habitat (small),Commercial station 4-10 crew,Vast Haven-1 / Axiom,6,Medium,2027,No
+Orbital habitat (colony),Rotating 100+ crew artificial gravity,None,2,Critical,2035+,Yes
+Closed-loop ECLSS,Self-sustaining colony scale,Collins Aerospace (ISS heritage),8,High,2030+,Yes
+Communications backbone,Earth-Moon-orbital relay,NASA DSN + LunaNet,6,Medium,2028,No
+ISRU (water extraction),Lunar water mining useful scale,NASA/Artemis payloads,4,Critical,2030+,Yes
+ISRU (fuel production),Propellant from lunar resources,None operational,3,Critical,2032+,Yes
+Power (lunar night),Continuous through 14-day night,Nuclear fission demos,4,High,2030,Yes

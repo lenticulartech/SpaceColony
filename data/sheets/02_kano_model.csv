@@ -1,0 +1,16 @@
+Requirement,Kano_Category,Moon,Mars,Orbital
+Breathable atmosphere,Basic,Pass (engineered),Pass (engineered),Pass (engineered)
+Radiation protection,Basic,Pass (regolith),Pass (atmo+regolith),Pass (engineered)
+Gravity >0.4g,Basic,FAIL (0.16g),FAIL (0.38g),Pass (tunable to 1g)
+Emergency return path,Basic,Pass (3 days),FAIL (9+ months),Pass (hours to days)
+Supply chain reliability,Basic,Pass (days),FAIL (26-month windows),Pass (days cislunar)
+Living space per person,Performance,Limited,Limited,Expandable
+Economic opportunity,Performance,Moderate,Low,Diverse
+Communication quality,Performance,1.3s RT,4-24min one-way,Seconds
+Energy availability,Performance,14-day night problem,Dust storm blackouts,Continuous solar
+Supply chain frequency,Performance,Any time,Every 26 months,Any time (cislunar)
+Simulated Earth gravity,Excitement,No,No,Yes (rotation)
+Mobility between locations,Excitement,No (surface-bound),No (surface-bound),Yes (repositionable)
+Earth-normal day/night cycle,Excitement,No (14-day),Partial (24.6h sol),Yes (configurable)
+Choice of community,Excitement,No,No,Yes (multiple colonies)
+Panoramic Earth views,Excitement,Yes (from surface),No,Yes (position dependent)

@@ -1,0 +1,27 @@
+Threat_ID,Destination,Threat,Likelihood,Impact,Risk_Score,Solvable_by_Engineering
+M-01,Moon,Micrometeorite impact,4,4,16,Yes
+M-02,Moon,Solar particle events,3,5,15,Partial
+M-03,Moon,"Lunar dust (abrasive, charged)",5,4,20,Partial
+M-04,Moon,Moonquakes,3,3,9,No
+M-05,Moon,Thermal cycling stress,5,4,20,Yes
+M-06,Moon,14-day night power gap,5,5,25,Yes (nuclear)
+M-07,Moon,Communications (farside),5,4,20,Yes (relay)
+MA-01,Mars,Global dust storm,3,4,12,No
+MA-02,Mars,Perchlorate toxicity,5,4,20,Partial
+MA-03,Mars,Chronic radiation exposure,5,4,20,Partial
+MA-04,Mars,CO2 atmosphere breach,2,5,10,Yes (habitat design)
+MA-05,Mars,Mars dust properties,5,3,15,Partial
+MA-06,Mars,Communication delay,5,3,15,No (physics)
+MA-07,Mars,Marsquakes,4,2,8,No
+MA-08,Mars,Resupply window constraints,5,5,25,No (physics)
+O-01,Orbital,Orbital debris (LEO),4,4,16,Partial
+O-02,Orbital,Micrometeorite flux,4,3,12,Yes
+O-03,Orbital,Solar particle events,3,4,12,Partial
+O-04,Orbital,Structural failure (rotating),2,5,10,Yes (design)
+O-05,Orbital,Station-keeping requirements,5,3,15,Yes
+O-06,Orbital,Fire risk (pressurized),2,5,10,Yes
+O-07,Orbital,Supply chain dependency,5,4,20,No (without ISRU)
+TR-01,Earth,Nuclear exchange,2,5,10,No (geopolitics)
+TR-02,Earth,Nuclear winter,2,5,10,No
+TR-03,Earth,Supervolcano eruption,1,5,5,No
+TR-04,Earth,Extinction-class asteroid,1,5,5,Yes (DART)

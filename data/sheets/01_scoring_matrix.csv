@@ -1,0 +1,25 @@
+Requirement,NASA_Hazard_or_WA_Pillar,Tier,MoSCoW,Weight,Moon_Score,Mars_Score,Orbital_Score,Moon_Weighted,Mars_Weighted,Orbital_Weighted
+Gravity >0.4g,Gravity Fields,1,Must,10,2,4,9,20,40,90
+Radiation <600 mSv,Radiation,1,Must,9,6,6,5,54,54,45
+Closed-loop ECLSS,Hostile/Closed Env,1,Must,9,5,5,5,45,45,45
+Breathable atmosphere generation,Hostile/Closed Env,1,Must,9,4,5,7,36,45,63
+Emergency return path (RTO),Distance from Earth,2,Must,8,8,1,7,64,8,56
+Supply chain resilience (RPO),Distance from Earth,2,Must,8,8,2,7,64,16,56
+Communications latency,Distance from Earth,2,Should,5,9,2,8,45,10,40
+Behavioral health / crew sustainability,Isolation/Confinement,2,Should,6,7,3,6,42,18,36
+ISRU potential,Performance,3,Should,7,7,7,3,49,49,21
+Energy independence,Performance,3,Should,7,4,5,8,28,35,56
+ECLSS open/closed loop feasibility,Operations,3,Should,6,6,4,6,36,24,36
+Transport cost per kg,Cost Optimization,3,Must,8,8,2,7,64,16,56
+Operating cost per capita/year,Cost Optimization,3,Should,7,5,3,5,35,21,35
+Cost of failure / recovery,Cost Optimization,3,Must,7,6,2,5,42,14,35
+Maintenance crew time ratio,Operational Excellence,3,Should,6,5,4,5,30,24,30
+Automation / remote ops capability,Operational Excellence,3,Should,6,7,3,7,42,18,42
+Monitoring / incident response,Operational Excellence,3,Should,5,8,2,7,40,10,35
+Resource consumption vs renewal rate,Sustainability,3,Should,6,5,5,4,30,30,24
+Closed-loop waste management,Sustainability,3,Should,5,4,4,5,20,20,25
+Near-term revenue pathway,Cost Optimization,4,Should,7,5,3,7,35,21,49
+Population scalability,Performance,4,Could,5,4,5,9,20,25,45
+Strategic positioning,Hybrid & Portable,4,Could,4,6,3,8,24,12,32
+Technology transferability,Hybrid & Portable,4,Should,6,7,4,8,42,24,48
+Standard interface compatibility,Hybrid & Portable,4,Could,4,6,5,7,24,20,28

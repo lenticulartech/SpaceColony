@@ -1,0 +1,10 @@
+ID,Assumption,Basis,Confidence,Impact_if_Wrong
+AS-01,0.4g is minimum viable gravity for long-term health,NASA Technical Reports 2021,Medium,Moon/Mars scores improve if lower viable; orbital more dominant if higher
+AS-02,4 RPM rotation comfortable for general population,Globus et al. 2017,Medium,Habitat radius must increase to 224m+ exponentially increasing cost
+AS-03,Commercial launch costs continue to fall,Industry trends SpaceX pricing,High,All off-Earth timelines extend decades
+AS-04,Lunar water ice extractable at useful scale,Artemis ISRU objectives,Medium,Moon resource layer collapses to Earth-dependent resupply
+AS-05,Colony-scale habitats cost significantly less per-person than ISS,Tiangong cost trend,Medium,Orbital colonies economically nonviable at ISS per-person costs
+AS-06,No credible threat renders Earth uninhabitable,Nuclear engineering analysis SIPRI ESA,High,Mars-first becomes correct strategy
+AS-07,Nuclear exchange survivable with regional infrastructure intact,T. Folse analysis weapons are finite,High,Off-Earth self-sufficiency becomes critical
+AS-08,56m radius sufficient for comfortable 1g habitat,Globus et al. 2017 at 4 RPM,Medium,Larger structure needed same physics different scale
+AS-09,NASA priority ordering validates our MoSCoW framework,NASA 2025 ACR technology gaps prioritization,High,Our independent methodology may diverge from NASA priorities

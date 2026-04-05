@@ -1,0 +1,9 @@
+Workload,Dependencies,Portability,Best_Placement,Rationale
+Mining / resource extraction,High,Low,Moon surface,Resources location-bound. Low gravity = cheap launch.
+Heavy manufacturing,High,Low,Moon surface,Proximity to mined resources. Vacuum useful.
+Light manufacturing / assembly,Moderate,Medium,Orbital,Tunable gravity. Near supply chain.
+Agriculture / food production,Moderate,Medium,Orbital,"Gravity control, continuous solar, no dust."
+Habitation / residential,High,Low,Orbital,Only destination meeting all health specs.
+Science / research,Low,High,Any (deploy where needed),"Portable. Moon for geology, orbital for microgravity."
+Transport / logistics hub,Low,High,Orbital,"Mobile, repositionable. Hub-and-spoke."
+Fuel production / depot,Moderate,Medium,Moon + orbital staging,"Moon extracts water, processes fuel. Orbital distributes."
