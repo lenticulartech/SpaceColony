@@ -1,0 +1,4 @@
+Requirement,WA_Pillar,MoSCoW,Weight,Kano_Category,Acceptance_Criteria,Platform_A_Score,Platform_B_Score,Platform_C_Score
+[Requirement name],Reliability,Must,10,Basic,[How you measure pass/fail],,,
+[Requirement name],Security,Should,7,Performance,[How you measure pass/fail],,,
+[Requirement name],Cost Optimization,Could,4,Excitement,[How you measure pass/fail],,,

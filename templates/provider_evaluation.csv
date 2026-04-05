@@ -1,0 +1,4 @@
+Architecture_Layer,Provider,TRL_25pct,Cost_Trajectory_20pct,Roadmap_Alignment_20pct,Reliability_15pct,Interoperability_10pct,Scalability_10pct,Weighted_Score
+[Layer],[Provider name],,,,,,,=formula
+[Layer],[Provider name],,,,,,,=formula
+[Layer],[Provider name],,,,,,,=formula
