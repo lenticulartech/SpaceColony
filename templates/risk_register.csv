@@ -1,4 +1,0 @@
-Threat_ID,Platform,Threat,Likelihood_1to5,Impact_1to5,Risk_Score,Solvable_by_Engineering,Mitigation,Source
-T-01,[Platform],[Description],,,=Likelihood x Impact,Yes/Partial/No,[How to reduce],[Reference]
-T-02,[Platform],[Description],,,=Likelihood x Impact,Yes/Partial/No,[How to reduce],[Reference]
-T-03,[Platform],[Description],,,=Likelihood x Impact,Yes/Partial/No,[How to reduce],[Reference]

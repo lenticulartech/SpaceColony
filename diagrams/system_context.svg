@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" font-family="Arial, sans-serif">
+  <style>
+    .title { font-size: 20px; font-weight: bold; fill: #1F4E79; }
+    .label { font-size: 13px; fill: #222; }
+    .label-bold { font-size: 13px; font-weight: bold; fill: #222; }
+    .label-small { font-size: 11px; fill: #555; }
+    .label-white { font-size: 13px; font-weight: bold; fill: #fff; }
+    .label-white-small { font-size: 11px; fill: #fff; }
+    .arrow-label { font-size: 10px; fill: #555; font-style: italic; }
+    .core { fill: #1F4E79; stroke: #0f2d4a; stroke-width: 2; }
+    .actor-gov { fill: #D5E8F0; stroke: #1F4E79; stroke-width: 1.5; }
+    .actor-com { fill: #E8F0D5; stroke: #548235; stroke-width: 1.5; }
+    .actor-sci { fill: #F0E8D5; stroke: #BF9000; stroke-width: 1.5; }
+    .actor-soc { fill: #F0D5D5; stroke: #C00000; stroke-width: 1.5; }
+    .flow { stroke: #555; stroke-width: 1.5; fill: none; marker-end: url(#arr); }
+  </style>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <text x="500" y="30" text-anchor="middle" class="title">System Context: Extraplanetary Infrastructure Program</text>
+
+  <!-- Core system -->
+  <rect x="380" y="260" width="240" height="130" rx="10" class="core"/>
+  <text x="500" y="300" text-anchor="middle" class="label-white">Extraplanetary</text>
+  <text x="500" y="320" text-anchor="middle" class="label-white">Infrastructure Program</text>
+  <text x="500" y="345" text-anchor="middle" class="label-white-small">Destination architecture,</text>
+  <text x="500" y="362" text-anchor="middle" class="label-white-small">workload allocation,</text>
+  <text x="500" y="379" text-anchor="middle" class="label-white-small">capital planning</text>
+
+  <!-- Top row - Government/Agency actors -->
+  <rect x="60" y="80" width="170" height="80" rx="6" class="actor-gov"/>
+  <text x="145" y="108" text-anchor="middle" class="label-bold">Spacefaring Agencies</text>
+  <text x="145" y="128" text-anchor="middle" class="label-small">NASA, ESA, JAXA,</text>
+  <text x="145" y="144" text-anchor="middle" class="label-small">CNSA, Roscosmos</text>
+
+  <rect x="260" y="80" width="170" height="80" rx="6" class="actor-gov"/>
+  <text x="345" y="108" text-anchor="middle" class="label-bold">Treaty Bodies</text>
+  <text x="345" y="128" text-anchor="middle" class="label-small">UN COPUOS,</text>
+  <text x="345" y="144" text-anchor="middle" class="label-small">Artemis Accords</text>
+
+  <rect x="570" y="80" width="170" height="80" rx="6" class="actor-com"/>
+  <text x="655" y="108" text-anchor="middle" class="label-bold">Transport Providers</text>
+  <text x="655" y="128" text-anchor="middle" class="label-small">SpaceX, Blue Origin,</text>
+  <text x="655" y="144" text-anchor="middle" class="label-small">ULA, Rocket Lab</text>
+
+  <rect x="770" y="80" width="170" height="80" rx="6" class="actor-com"/>
+  <text x="855" y="108" text-anchor="middle" class="label-bold">Station Operators</text>
+  <text x="855" y="128" text-anchor="middle" class="label-small">Axiom, Vast, Voyager,</text>
+  <text x="855" y="144" text-anchor="middle" class="label-small">Blue Origin Reef</text>
+
+  <!-- Middle row sides -->
+  <rect x="60" y="280" width="170" height="90" rx="6" class="actor-sci"/>
+  <text x="145" y="308" text-anchor="middle" class="label-bold">Scientific Community</text>
+  <text x="145" y="328" text-anchor="middle" class="label-small">Research institutions,</text>
+  <text x="145" y="344" text-anchor="middle" class="label-small">planetary societies,</text>
+  <text x="145" y="360" text-anchor="middle" class="label-small">NASEM</text>
+
+  <rect x="770" y="280" width="170" height="90" rx="6" class="actor-com"/>
+  <text x="855" y="308" text-anchor="middle" class="label-bold">Resource Extractors</text>
+  <text x="855" y="328" text-anchor="middle" class="label-small">Commercial mining,</text>
+  <text x="855" y="344" text-anchor="middle" class="label-small">ISRU providers,</text>
+  <text x="855" y="360" text-anchor="middle" class="label-small">manufacturing ops</text>
+
+  <!-- Bottom row -->
+  <rect x="60" y="490" width="170" height="90" rx="6" class="actor-soc"/>
+  <text x="145" y="518" text-anchor="middle" class="label-bold">Colonist Population</text>
+  <text x="145" y="538" text-anchor="middle" class="label-small">Future residents,</text>
+  <text x="145" y="554" text-anchor="middle" class="label-small">crew selection,</text>
+  <text x="145" y="570" text-anchor="middle" class="label-small">second-generation</text>
+
+  <rect x="260" y="490" width="170" height="90" rx="6" class="actor-soc"/>
+  <text x="345" y="518" text-anchor="middle" class="label-bold">Earth Populations</text>
+  <text x="345" y="538" text-anchor="middle" class="label-small">Taxpayers,</text>
+  <text x="345" y="554" text-anchor="middle" class="label-small">public opinion,</text>
+  <text x="345" y="570" text-anchor="middle" class="label-small">media audiences</text>
+
+  <rect x="570" y="490" width="170" height="90" rx="6" class="actor-com"/>
+  <text x="655" y="518" text-anchor="middle" class="label-bold">Insurance and Finance</text>
+  <text x="655" y="538" text-anchor="middle" class="label-small">Lloyd's, AXA, reinsurers,</text>
+  <text x="655" y="554" text-anchor="middle" class="label-small">sovereign wealth,</text>
+  <text x="655" y="570" text-anchor="middle" class="label-small">venture capital</text>
+
+  <rect x="770" y="490" width="170" height="90" rx="6" class="actor-gov"/>
+  <text x="855" y="518" text-anchor="middle" class="label-bold">Defense and Security</text>
+  <text x="855" y="538" text-anchor="middle" class="label-small">US Space Force,</text>
+  <text x="855" y="554" text-anchor="middle" class="label-small">allied space commands,</text>
+  <text x="855" y="570" text-anchor="middle" class="label-small">dual-use oversight</text>
+
+  <!-- Flow arrows with labels -->
+  <path d="M 145 160 Q 300 210 380 270" class="flow"/>
+  <text x="215" y="205" class="arrow-label">Funding, requirements</text>
+
+  <path d="M 345 160 Q 400 210 450 260" class="flow"/>
+  <text x="380" y="210" class="arrow-label">Compliance</text>
+
+  <path d="M 655 160 Q 600 210 550 260" class="flow"/>
+  <text x="600" y="210" class="arrow-label">Transport capacity</text>
+
+  <path d="M 855 160 Q 750 210 620 270" class="flow"/>
+  <text x="760" y="205" class="arrow-label">Habitation services</text>
+
+  <path d="M 230 325 L 380 325" class="flow"/>
+  <text x="270" y="318" class="arrow-label">Research input</text>
+
+  <path d="M 770 325 L 620 325" class="flow"/>
+  <text x="660" y="318" class="arrow-label">Resources</text>
+
+  <path d="M 145 490 Q 250 440 380 390" class="flow"/>
+  <text x="170" y="450" class="arrow-label">Habitation needs</text>
+
+  <path d="M 345 490 Q 400 440 450 390" class="flow"/>
+  <text x="360" y="450" class="arrow-label">Public mandate</text>
+
+  <path d="M 655 490 Q 600 440 550 390" class="flow"/>
+  <text x="595" y="450" class="arrow-label">Risk capital</text>
+
+  <path d="M 855 490 Q 750 440 620 390" class="flow"/>
+  <text x="760" y="450" class="arrow-label">Security context</text>
+
+  <!-- Legend -->
+  <rect x="60" y="615" width="14" height="14" class="actor-gov"/>
+  <text x="80" y="627" class="label-small">Government and regulatory</text>
+  <rect x="250" y="615" width="14" height="14" class="actor-com"/>
+  <text x="270" y="627" class="label-small">Commercial</text>
+  <rect x="400" y="615" width="14" height="14" class="actor-sci"/>
+  <text x="420" y="627" class="label-small">Research</text>
+  <rect x="520" y="615" width="14" height="14" class="actor-soc"/>
+  <text x="540" y="627" class="label-small">Populations</text>
+</svg>

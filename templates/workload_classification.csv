@@ -1,4 +1,0 @@
-Workload,Dependencies,Dependency_Level,Portability,Recommended_Platform,Rationale
-[Workload name],[What it depends on],Minimal,High,[Platform],[Why this platform]
-[Workload name],[What it depends on],Moderate,Medium,[Platform],[Why this platform]
-[Workload name],[What it depends on],High,Low,[Platform],[Why this platform]

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 500" font-family="Arial, sans-serif">
+  <style>
+    .title { font-size: 20px; font-weight: bold; fill: #1F4E79; }
+    .phase-title { font-size: 14px; font-weight: bold; fill: #1F4E79; }
+    .phase-sub { font-size: 11px; fill: #555; font-style: italic; }
+    .year { font-size: 12px; fill: #444; font-weight: bold; }
+    .milestone { font-size: 11px; fill: #222; }
+    .tier-label { font-size: 12px; font-weight: bold; fill: #1F4E79; }
+    .gate-label { font-size: 11px; fill: #C00000; font-weight: bold; }
+    .gate-line { stroke: #C00000; stroke-width: 2; stroke-dasharray: 6,3; }
+    .phase1 { fill: #D5E8F0; stroke: #1F4E79; stroke-width: 1.5; }
+    .phase2 { fill: #C4D8E8; stroke: #1F4E79; stroke-width: 1.5; }
+    .phase3 { fill: #A8C4DD; stroke: #1F4E79; stroke-width: 1.5; }
+    .tier-band { fill: #F8F9FA; stroke: #ddd; stroke-width: 1; }
+  </style>
+
+  <text x="550" y="30" text-anchor="middle" class="title">Operational Model: Phased Deployment Timeline</text>
+
+  <line x1="120" y1="430" x2="1050" y2="430" stroke="#555" stroke-width="1.5"/>
+  <text x="120" y="455" text-anchor="middle" class="year">2026</text>
+  <text x="275" y="455" text-anchor="middle" class="year">2030</text>
+  <text x="430" y="455" text-anchor="middle" class="year">2034</text>
+  <text x="585" y="455" text-anchor="middle" class="year">2038</text>
+  <text x="740" y="455" text-anchor="middle" class="year">2042</text>
+  <text x="895" y="455" text-anchor="middle" class="year">2046</text>
+  <text x="1050" y="455" text-anchor="middle" class="year">2050</text>
+
+  <rect x="120" y="70" width="930" height="80" class="tier-band"/>
+  <rect x="120" y="155" width="930" height="80" class="tier-band"/>
+  <rect x="120" y="240" width="930" height="80" class="tier-band"/>
+
+  <text x="115" y="115" text-anchor="end" class="tier-label">Primary</text>
+  <text x="115" y="200" text-anchor="end" class="tier-label">Resource</text>
+  <text x="115" y="285" text-anchor="end" class="tier-label">Habitation</text>
+
+  <rect x="125" y="78" width="235" height="32" rx="4" class="phase1"/>
+  <text x="242" y="98" text-anchor="middle" class="milestone">Earth hardening, multi-vendor launch</text>
+
+  <rect x="125" y="163" width="235" height="32" rx="4" class="phase1"/>
+  <text x="242" y="183" text-anchor="middle" class="milestone">Artemis IV, lunar outpost, fission</text>
+
+  <rect x="125" y="248" width="235" height="32" rx="4" class="phase1"/>
+  <text x="242" y="268" text-anchor="middle" class="milestone">Commercial LEO stations (4-10 crew)</text>
+
+  <rect x="125" y="340" width="235" height="60" rx="6" class="phase1"/>
+  <text x="242" y="360" text-anchor="middle" class="phase-title">Phase 1: Foundation</text>
+  <text x="242" y="378" text-anchor="middle" class="phase-sub">2026-2032</text>
+  <text x="242" y="394" text-anchor="middle" class="phase-sub">Establish presence, baseline capability</text>
+
+  <line x1="370" y1="65" x2="370" y2="325" class="gate-line"/>
+  <text x="370" y="60" text-anchor="middle" class="gate-label">Gate 1-2</text>
+
+  <rect x="375" y="78" width="235" height="32" rx="4" class="phase2"/>
+  <text x="492" y="98" text-anchor="middle" class="milestone">Planetary defense hardened</text>
+
+  <rect x="375" y="163" width="235" height="32" rx="4" class="phase2"/>
+  <text x="492" y="183" text-anchor="middle" class="milestone">Lunar ISRU at scale, cislunar depot</text>
+
+  <rect x="375" y="248" width="235" height="32" rx="4" class="phase2"/>
+  <text x="492" y="268" text-anchor="middle" class="milestone">Rotating habitat demonstrator (50-100)</text>
+
+  <rect x="375" y="340" width="235" height="60" rx="6" class="phase2"/>
+  <text x="492" y="360" text-anchor="middle" class="phase-title">Phase 2: Scale</text>
+  <text x="492" y="378" text-anchor="middle" class="phase-sub">2030-2038</text>
+  <text x="492" y="394" text-anchor="middle" class="phase-sub">Demonstrate rotation, scale ISRU</text>
+
+  <line x1="620" y1="65" x2="620" y2="325" class="gate-line"/>
+  <text x="620" y="60" text-anchor="middle" class="gate-label">Gate 2-3</text>
+
+  <rect x="625" y="78" width="425" height="32" rx="4" class="phase3"/>
+  <text x="837" y="98" text-anchor="middle" class="milestone">Continuous ops, governance mature</text>
+
+  <rect x="625" y="163" width="425" height="32" rx="4" class="phase3"/>
+  <text x="837" y="183" text-anchor="middle" class="milestone">Commercial lunar ops, asteroid mining initiation</text>
+
+  <rect x="625" y="248" width="425" height="32" rx="4" class="phase3"/>
+  <text x="837" y="268" text-anchor="middle" class="milestone">Orbital colony 1,000-10,000 population, 1G rotation</text>
+
+  <rect x="625" y="340" width="425" height="60" rx="6" class="phase3"/>
+  <text x="837" y="360" text-anchor="middle" class="phase-title">Phase 3: Colony Scale</text>
+  <text x="837" y="378" text-anchor="middle" class="phase-sub">2035-2050</text>
+  <text x="837" y="394" text-anchor="middle" class="phase-sub">Self-sustaining cislunar economy, multi-gen habitation</text>
+</svg>

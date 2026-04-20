@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" font-family="Arial, sans-serif">
+  <style>
+    .title { font-size: 22px; font-weight: bold; fill: #1F4E79; }
+    .tier-label { font-size: 14px; font-weight: bold; fill: #1F4E79; }
+    .tier-sub { font-size: 11px; fill: #555; font-style: italic; }
+    .node-title { font-size: 14px; font-weight: bold; fill: #222; }
+    .node-sub { font-size: 11px; fill: #444; }
+    .node-tag { font-size: 10px; fill: #1F4E79; font-weight: bold; }
+    .role { font-size: 11px; font-weight: bold; fill: #1F4E79; }
+    .primary { fill: #D5E8F0; stroke: #1F4E79; stroke-width: 2; }
+    .resource { fill: #E8DCC4; stroke: #8B6914; stroke-width: 2; }
+    .habitation { fill: #C4D8E8; stroke: #1F4E79; stroke-width: 2; }
+    .flow-resource { stroke: #8B6914; stroke-width: 2; fill: none; marker-end: url(#arrbrown); }
+    .flow-label { font-size: 10px; fill: #333; }
+  </style>
+  <defs>
+    <marker id="arrbrown" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8B6914"/>
+    </marker>
+  </defs>
+
+  <text x="600" y="32" text-anchor="middle" class="title">Component Model: Recommended Hybrid Architecture</text>
+
+  <text x="60" y="135" class="tier-label">Primary Tier</text>
+  <text x="60" y="152" class="tier-sub">Hardened anchor</text>
+  <text x="60" y="295" class="tier-label">Resource Tier</text>
+  <text x="60" y="312" class="tier-sub">Extraction and staging</text>
+  <text x="60" y="460" class="tier-label">Habitation Tier</text>
+  <text x="60" y="477" class="tier-sub">Population and economy</text>
+
+  <rect x="200" y="85" width="220" height="140" rx="8" class="primary"/>
+  <text x="215" y="105" class="node-tag">[PRI-1]</text>
+  <text x="310" y="125" text-anchor="middle" class="node-title">Earth</text>
+  <text x="310" y="150" text-anchor="middle" class="node-sub">Control, finance, research,</text>
+  <text x="310" y="167" text-anchor="middle" class="node-sub">population majority,</text>
+  <text x="310" y="184" text-anchor="middle" class="node-sub">governance</text>
+  <text x="310" y="208" text-anchor="middle" class="role">Role: Hardened Primary</text>
+
+  <rect x="440" y="85" width="210" height="140" rx="8" class="primary"/>
+  <text x="455" y="105" class="node-tag">[PRI-2]</text>
+  <text x="545" y="125" text-anchor="middle" class="node-title">Planetary Defense</text>
+  <text x="545" y="150" text-anchor="middle" class="node-sub">Asteroid tracking and</text>
+  <text x="545" y="167" text-anchor="middle" class="node-sub">deflection (DART-class),</text>
+  <text x="545" y="184" text-anchor="middle" class="node-sub">impact mitigation</text>
+  <text x="545" y="208" text-anchor="middle" class="role">Supports PRI-1</text>
+
+  <rect x="670" y="85" width="210" height="140" rx="8" class="primary"/>
+  <text x="685" y="105" class="node-tag">[PRI-3]</text>
+  <text x="775" y="125" text-anchor="middle" class="node-title">Earth Launch Base</text>
+  <text x="775" y="150" text-anchor="middle" class="node-sub">Starship-class cadence,</text>
+  <text x="775" y="167" text-anchor="middle" class="node-sub">multi-vendor transport,</text>
+  <text x="775" y="184" text-anchor="middle" class="node-sub">cargo and crew</text>
+  <text x="775" y="208" text-anchor="middle" class="role">Gateway to off-Earth tiers</text>
+
+  <rect x="900" y="85" width="210" height="140" rx="8" class="primary"/>
+  <text x="915" y="105" class="node-tag">[PRI-4]</text>
+  <text x="1005" y="125" text-anchor="middle" class="node-title">Ground Control</text>
+  <text x="1005" y="150" text-anchor="middle" class="node-sub">Mission operations,</text>
+  <text x="1005" y="167" text-anchor="middle" class="node-sub">communications,</text>
+  <text x="1005" y="184" text-anchor="middle" class="node-sub">crew training</text>
+  <text x="1005" y="208" text-anchor="middle" class="role">24/7 link to all tiers</text>
+
+  <rect x="200" y="250" width="220" height="150" rx="8" class="resource"/>
+  <text x="215" y="270" class="node-tag">[RES-1]</text>
+  <text x="310" y="290" text-anchor="middle" class="node-title">Lunar Surface Base</text>
+  <text x="310" y="315" text-anchor="middle" class="node-sub">Water ice extraction,</text>
+  <text x="310" y="332" text-anchor="middle" class="node-sub">regolith processing,</text>
+  <text x="310" y="349" text-anchor="middle" class="node-sub">propellant production</text>
+  <text x="310" y="373" text-anchor="middle" class="role">Role: Resource layer</text>
+  <text x="310" y="390" text-anchor="middle" class="node-sub">Crew rotates, no permanent</text>
+
+  <rect x="440" y="250" width="210" height="150" rx="8" class="resource"/>
+  <text x="455" y="270" class="node-tag">[RES-2]</text>
+  <text x="545" y="290" text-anchor="middle" class="node-title">Cislunar Fuel Depot</text>
+  <text x="545" y="315" text-anchor="middle" class="node-sub">Orbital refueling,</text>
+  <text x="545" y="332" text-anchor="middle" class="node-sub">propellant staging,</text>
+  <text x="545" y="349" text-anchor="middle" class="node-sub">transit enabler</text>
+  <text x="545" y="373" text-anchor="middle" class="role">Role: Staging</text>
+  <text x="545" y="390" text-anchor="middle" class="node-sub">Supplied by RES-1</text>
+
+  <rect x="670" y="250" width="210" height="150" rx="8" class="resource"/>
+  <text x="685" y="270" class="node-tag">[RES-3]</text>
+  <text x="775" y="290" text-anchor="middle" class="node-title">Lunar Power Station</text>
+  <text x="775" y="315" text-anchor="middle" class="node-sub">Fission reactor</text>
+  <text x="775" y="332" text-anchor="middle" class="node-sub">(10-40 kW class),</text>
+  <text x="775" y="349" text-anchor="middle" class="node-sub">closes lunar night gap</text>
+  <text x="775" y="373" text-anchor="middle" class="role">Supports RES-1</text>
+
+  <rect x="900" y="250" width="210" height="150" rx="8" class="resource"/>
+  <text x="915" y="270" class="node-tag">[RES-4]</text>
+  <text x="1005" y="290" text-anchor="middle" class="node-title">Regolith Shielding Ops</text>
+  <text x="1005" y="315" text-anchor="middle" class="node-sub">Bulk material delivery</text>
+  <text x="1005" y="332" text-anchor="middle" class="node-sub">to habitation tier</text>
+  <text x="1005" y="349" text-anchor="middle" class="node-sub">for radiation shielding</text>
+  <text x="1005" y="373" text-anchor="middle" class="role">Enables HAB-1, HAB-2</text>
+
+  <rect x="200" y="415" width="220" height="150" rx="8" class="habitation"/>
+  <text x="215" y="435" class="node-tag">[HAB-1]</text>
+  <text x="310" y="455" text-anchor="middle" class="node-title">Rotating Orbital Colony</text>
+  <text x="310" y="480" text-anchor="middle" class="node-sub">1G equivalent rotation,</text>
+  <text x="310" y="497" text-anchor="middle" class="node-sub">1,000-10,000 population,</text>
+  <text x="310" y="514" text-anchor="middle" class="node-sub">closed-loop ECLSS</text>
+  <text x="310" y="538" text-anchor="middle" class="role">Role: Primary habitation</text>
+  <text x="310" y="555" text-anchor="middle" class="node-sub">Multi-generational</text>
+
+  <rect x="440" y="415" width="210" height="150" rx="8" class="habitation"/>
+  <text x="455" y="435" class="node-tag">[HAB-2]</text>
+  <text x="545" y="455" text-anchor="middle" class="node-title">Commercial LEO Stations</text>
+  <text x="545" y="480" text-anchor="middle" class="node-sub">Tourism, manufacturing,</text>
+  <text x="545" y="497" text-anchor="middle" class="node-sub">research, small crews,</text>
+  <text x="545" y="514" text-anchor="middle" class="node-sub">4-10 per station</text>
+  <text x="545" y="538" text-anchor="middle" class="role">Phase 1 deliverable</text>
+  <text x="545" y="555" text-anchor="middle" class="node-sub">Near-term revenue</text>
+
+  <rect x="670" y="415" width="210" height="150" rx="8" class="habitation"/>
+  <text x="685" y="435" class="node-tag">[HAB-3]</text>
+  <text x="775" y="455" text-anchor="middle" class="node-title">Microgravity Industrial</text>
+  <text x="775" y="480" text-anchor="middle" class="node-sub">Pharmaceuticals,</text>
+  <text x="775" y="497" text-anchor="middle" class="node-sub">specialty fibers,</text>
+  <text x="775" y="514" text-anchor="middle" class="node-sub">advanced manufacturing</text>
+  <text x="775" y="538" text-anchor="middle" class="role">Revenue engine</text>
+
+  <rect x="900" y="415" width="210" height="150" rx="8" class="habitation"/>
+  <text x="915" y="435" class="node-tag">[HAB-4]</text>
+  <text x="1005" y="455" text-anchor="middle" class="node-title">Agriculture Module</text>
+  <text x="1005" y="480" text-anchor="middle" class="node-sub">Controlled-environment</text>
+  <text x="1005" y="497" text-anchor="middle" class="node-sub">food production,</text>
+  <text x="1005" y="514" text-anchor="middle" class="node-sub">closed-loop integration</text>
+  <text x="1005" y="538" text-anchor="middle" class="role">Sustainability support</text>
+
+  <path d="M 310 400 L 310 415" class="flow-resource"/>
+  <path d="M 545 400 L 545 415" class="flow-resource"/>
+  <path d="M 1005 400 L 1005 415" class="flow-resource"/>
+  <text x="320" y="410" class="flow-label">Water, propellant</text>
+  <text x="555" y="410" class="flow-label">Fuel</text>
+  <text x="1015" y="410" class="flow-label">Shielding</text>
+</svg>

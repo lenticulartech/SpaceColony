@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" font-family="Arial, sans-serif">
+  <style>
+    .title { font-size: 24px; font-weight: bold; fill: #1F4E79; }
+    .subtitle { font-size: 14px; fill: #555; font-style: italic; }
+    .tier-title { font-size: 18px; font-weight: bold; fill: #1F4E79; }
+    .tier-role { font-size: 13px; fill: #222; font-weight: bold; }
+    .tier-detail { font-size: 12px; fill: #444; }
+    .flow-label { font-size: 12px; fill: #333; font-weight: bold; }
+    .flow-sub { font-size: 10px; fill: #666; font-style: italic; }
+    .callout { font-size: 11px; fill: #C00000; font-style: italic; }
+    .earth { fill: #2E86AB; stroke: #1F4E79; stroke-width: 3; }
+    .earth-ring { fill: none; stroke: #1F4E79; stroke-width: 1.5; stroke-dasharray: 4,3; }
+    .moon { fill: #C9B38C; stroke: #8B6914; stroke-width: 3; }
+    .orbital { fill: #7AB3D6; stroke: #1F4E79; stroke-width: 3; }
+    .arrow-supply { stroke: #8B6914; stroke-width: 3; fill: none; marker-end: url(#arrs); }
+    .arrow-support { stroke: #1F4E79; stroke-width: 2; fill: none; marker-end: url(#arrc); }
+    .arrow-mars { stroke: #999; stroke-width: 1.5; stroke-dasharray: 4,3; fill: none; }
+    .disqualified { fill: #F0F0F0; stroke: #999; stroke-width: 1.5; stroke-dasharray: 5,3; }
+    .disqualified-text { fill: #888; font-size: 12px; }
+  </style>
+  <defs>
+    <marker id="arrs" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8B6914"/>
+    </marker>
+    <marker id="arrc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1F4E79"/>
+    </marker>
+    <radialGradient id="earthgrad" cx="0.4" cy="0.35">
+      <stop offset="0%" stop-color="#5FA8D3"/>
+      <stop offset="100%" stop-color="#1F4E79"/>
+    </radialGradient>
+    <radialGradient id="moongrad" cx="0.4" cy="0.35">
+      <stop offset="0%" stop-color="#E8D5A8"/>
+      <stop offset="100%" stop-color="#9B7F47"/>
+    </radialGradient>
+    <radialGradient id="orbgrad" cx="0.4" cy="0.35">
+      <stop offset="0%" stop-color="#A8D0E8"/>
+      <stop offset="100%" stop-color="#2E86AB"/>
+    </radialGradient>
+  </defs>
+
+  <text x="600" y="35" text-anchor="middle" class="title">Recommended Architecture</text>
+  <text x="600" y="60" text-anchor="middle" class="subtitle">Three tiers, workloads allocated to the platform that best supports them</text>
+
+  <!-- EARTH (center-left, large) -->
+  <circle cx="290" cy="380" r="120" fill="url(#earthgrad)" stroke="#1F4E79" stroke-width="3"/>
+  <text x="290" y="375" text-anchor="middle" fill="#fff" style="font-size:22px; font-weight:bold;">EARTH</text>
+  <text x="290" y="398" text-anchor="middle" fill="#E8F0F8" style="font-size:12px;">Hardened Primary</text>
+
+  <!-- Earth role callout -->
+  <rect x="70" y="535" width="440" height="135" rx="8" fill="#F4F8FB" stroke="#1F4E79" stroke-width="1.5"/>
+  <text x="290" y="560" text-anchor="middle" class="tier-title">Primary Tier</text>
+  <text x="290" y="582" text-anchor="middle" class="tier-role">Anchor the architecture</text>
+  <text x="290" y="605" text-anchor="middle" class="tier-detail">Control, finance, research, governance,</text>
+  <text x="290" y="622" text-anchor="middle" class="tier-detail">population majority, planetary defense,</text>
+  <text x="290" y="639" text-anchor="middle" class="tier-detail">launch capability, 24/7 mission control</text>
+  <text x="290" y="660" text-anchor="middle" class="callout">Workloads retained: all critical</text>
+
+  <!-- MOON (top right) -->
+  <circle cx="800" cy="220" r="85" fill="url(#moongrad)" stroke="#8B6914" stroke-width="3"/>
+  <text x="800" y="215" text-anchor="middle" fill="#fff" style="font-size:20px; font-weight:bold;">MOON</text>
+  <text x="800" y="237" text-anchor="middle" fill="#F0E4C8" style="font-size:11px;">Resource Layer</text>
+
+  <rect x="960" y="145" width="230" height="150" rx="8" fill="#FAF5EC" stroke="#8B6914" stroke-width="1.5"/>
+  <text x="1075" y="170" text-anchor="middle" class="tier-title">Resource Tier</text>
+  <text x="1075" y="192" text-anchor="middle" class="tier-role">Extraction and staging</text>
+  <text x="1075" y="215" text-anchor="middle" class="tier-detail">Water ice, regolith,</text>
+  <text x="1075" y="232" text-anchor="middle" class="tier-detail">propellant, fission power,</text>
+  <text x="1075" y="249" text-anchor="middle" class="tier-detail">shielding mass</text>
+  <text x="1075" y="275" text-anchor="middle" class="callout">No permanent residents</text>
+
+  <!-- ORBITAL (right, below Moon) -->
+  <g transform="translate(800, 460)">
+    <!-- Rotating station graphic: torus view -->
+    <ellipse cx="0" cy="0" rx="95" ry="30" fill="url(#orbgrad)" stroke="#1F4E79" stroke-width="3"/>
+    <ellipse cx="0" cy="0" rx="40" ry="12" fill="#1F4E79" opacity="0.6"/>
+    <line x1="-40" y1="0" x2="-95" y2="0" stroke="#1F4E79" stroke-width="2"/>
+    <line x1="40" y1="0" x2="95" y2="0" stroke="#1F4E79" stroke-width="2"/>
+    <text x="0" y="-45" text-anchor="middle" fill="#1F4E79" style="font-size:18px; font-weight:bold;">ORBITAL HABITATS</text>
+    <text x="0" y="55" text-anchor="middle" fill="#555" style="font-size:11px;">Rotating, 1G equivalent</text>
+  </g>
+
+  <rect x="960" y="395" width="230" height="150" rx="8" fill="#F0F6FB" stroke="#1F4E79" stroke-width="1.5"/>
+  <text x="1075" y="420" text-anchor="middle" class="tier-title">Habitation Tier</text>
+  <text x="1075" y="442" text-anchor="middle" class="tier-role">Population and economy</text>
+  <text x="1075" y="465" text-anchor="middle" class="tier-detail">1,000-10,000 residents,</text>
+  <text x="1075" y="482" text-anchor="middle" class="tier-detail">closed-loop ECLSS,</text>
+  <text x="1075" y="499" text-anchor="middle" class="tier-detail">microgravity industry</text>
+  <text x="1075" y="525" text-anchor="middle" class="callout">Multi-generational</text>
+
+  <!-- Flow: Earth supports Moon -->
+  <path d="M 400 330 Q 570 250 715 230" class="arrow-support"/>
+  <text x="545" y="270" class="flow-label">Transport, Personnel</text>
+  <text x="545" y="286" class="flow-sub">Phase 1-2 buildout</text>
+
+  <!-- Flow: Earth supports Orbital -->
+  <path d="M 400 430 Q 570 450 710 460" class="arrow-support"/>
+  <text x="525" y="485" class="flow-label">Transport, Personnel</text>
+  <text x="525" y="501" class="flow-sub">Continuous through all phases</text>
+
+  <!-- Flow: Moon supplies Orbital -->
+  <path d="M 800 305 L 800 430" class="arrow-supply"/>
+  <text x="815" y="360" class="flow-label">Water, propellant,</text>
+  <text x="815" y="376" class="flow-label">regolith shielding</text>
+  <text x="815" y="392" class="flow-sub">ISRU supply chain</text>
+
+  <!-- Mars - disqualified -->
+  <g transform="translate(95, 140)">
+    <circle cx="0" cy="0" r="45" class="disqualified"/>
+    <text x="0" y="-3" text-anchor="middle" class="disqualified-text" style="font-weight:bold;">MARS</text>
+    <text x="0" y="15" text-anchor="middle" class="disqualified-text" style="font-size:10px;">disqualified</text>
+    <line x1="-35" y1="-35" x2="35" y2="35" stroke="#C00000" stroke-width="2.5"/>
+  </g>
+  <text x="160" y="90" class="disqualified-text" style="font-size:11px;">Not part of architecture</text>
+  <text x="160" y="105" class="disqualified-text" style="font-size:10px;">Fails 4 Must-Haves:</text>
+  <text x="160" y="119" class="disqualified-text" style="font-size:10px;">gravity, RTO, RPO, cost</text>
+  <text x="160" y="133" class="disqualified-text" style="font-size:10px;">Data handed off for</text>
+  <text x="160" y="147" class="disqualified-text" style="font-size:10px;">Mars science programs</text>
+
+  <!-- Bottom legend -->
+  <line x1="75" y1="700" x2="105" y2="700" class="arrow-support"/>
+  <text x="115" y="704" style="font-size:11px; fill:#333;">Support flow (Earth supports other tiers)</text>
+  <line x1="430" y1="700" x2="460" y2="700" class="arrow-supply"/>
+  <text x="470" y="704" style="font-size:11px; fill:#333;">Supply flow (Moon supplies habitation)</text>
+</svg>
