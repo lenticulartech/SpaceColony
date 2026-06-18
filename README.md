@@ -1,12 +1,15 @@
 # SpaceColony Architecture Assessment
 
-An open methodology applied to destination selection for extraplanetary infrastructure. Treats the Moon, Mars, and orbital rotating habitats as candidate platforms and evaluates them against a structured requirement set drawn from NASA standards, peer-reviewed physiology research, and commercial operator data.
+A fun side project combining solutions architecture methodology, space science and multi-modal AI to assess the best destination for extraplanetary infrastructure. Treats the Moon, Mars, and orbital habitats as candidate platforms and evaluates them against a structured requirement set drawn from NASA standards, peer-reviewed physiology research, and commercial operator data.
+
+The research, analysis, scoring,and assesment is complete. currently working on the documentation. Most of the PDFs are AI drafts. They should be readable, but I do need to rewrite them. All of the data, equations, and results are in the Excel files. I'll be cleaning it up soon
+ 
 
 **License: Apache 2.0**
 
 ## Headline Result
 
-The recommended architecture is a three-tier hybrid:
+The only is a three-tier hybrid:
 
 | Tier | Destination | Role |
 |---|---|---|
