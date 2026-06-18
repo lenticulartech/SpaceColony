@@ -9,7 +9,7 @@ All of the data, equations, and results are in the Excel files.
 
 **License: Apache 2.0**
 
-## Headline Result
+## The only viable place for humanity is on space stations. 
 
 The only is a three-tier hybrid:
 
